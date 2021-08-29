@@ -1,4 +1,4 @@
-export const getUserdatFromToken = (token = "") => {
+export const getUserdataFromToken = (token = "") => {
   try {
     let tokens = token.split(".")
     let body = atob(tokens[1])
